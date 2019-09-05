@@ -1,0 +1,19 @@
+{
+  "name": "stuifzand/module-structured-data-product",
+  "description": "Add json+ld tags for products",
+  "require": {
+    "php": "~5.6|~7.0"
+  },
+  "type": "magento2-module",
+  "license": [
+    "BSD-3-Clause"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Stuifzand\\StructuredDataProduct\\": ""
+    }
+  }
+}
